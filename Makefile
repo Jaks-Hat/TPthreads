@@ -30,7 +30,7 @@
 # $^  - toutes les déps
 
 CC=gcc
-CFLAGS=-Wall -g -O2
+CFLAGS=-Wall -g -lm 
 LDLIBS=-lpthread
 
 all: match match2 searchVector
